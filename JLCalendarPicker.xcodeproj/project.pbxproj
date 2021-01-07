@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033AFFBC25A6C2FB0006224A /* JLCalendarPicker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 033AFFBB25A6C2FB0006224A /* JLCalendarPicker WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		033AFFC125A6C2FC0006224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033AFFC025A6C2FC0006224A /* Assets.xcassets */; };
+		033AFFC825A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 033AFFC725A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		033AFFCD25A6C2FC0006224A /* JLCalendarPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AFFCC25A6C2FC0006224A /* JLCalendarPickerApp.swift */; };
+		033AFFCF25A6C2FC0006224A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AFFCE25A6C2FC0006224A /* ContentView.swift */; };
+		033AFFD125A6C2FC0006224A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AFFD025A6C2FC0006224A /* NotificationController.swift */; };
+		033AFFD325A6C2FD0006224A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AFFD225A6C2FD0006224A /* NotificationView.swift */; };
+		033AFFD525A6C2FD0006224A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AFFD425A6C2FD0006224A /* ComplicationController.swift */; };
+		033AFFD725A6C2FD0006224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033AFFD625A6C2FD0006224A /* Assets.xcassets */; };
+		033AFFDA25A6C2FD0006224A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033AFFD925A6C2FD0006224A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033AFFBD25A6C2FB0006224A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033AFFB125A6C2FB0006224A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033AFFBA25A6C2FB0006224A;
+			remoteInfo = "JLCalendarPicker WatchKit App";
+		};
+		033AFFC925A6C2FC0006224A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033AFFB125A6C2FB0006224A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033AFFC625A6C2FC0006224A;
+			remoteInfo = "JLCalendarPicker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		033AFFE225A6C2FD0006224A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				033AFFC825A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033AFFE625A6C2FD0006224A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				033AFFBC25A6C2FB0006224A /* JLCalendarPicker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		033AFFB725A6C2FB0006224A /* JLCalendarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLCalendarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033AFFBB25A6C2FB0006224A /* JLCalendarPicker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JLCalendarPicker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033AFFC025A6C2FC0006224A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033AFFC225A6C2FC0006224A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033AFFC725A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JLCalendarPicker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033AFFCC25A6C2FC0006224A /* JLCalendarPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLCalendarPickerApp.swift; sourceTree = "<group>"; };
+		033AFFCE25A6C2FC0006224A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		033AFFD025A6C2FC0006224A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		033AFFD225A6C2FD0006224A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		033AFFD425A6C2FD0006224A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		033AFFD625A6C2FD0006224A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033AFFD925A6C2FD0006224A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		033AFFDB25A6C2FD0006224A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033AFFDC25A6C2FD0006224A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033AFFC425A6C2FC0006224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033AFFB025A6C2FB0006224A = {
+			isa = PBXGroup;
+			children = (
+				033AFFBF25A6C2FB0006224A /* JLCalendarPicker WatchKit App */,
+				033AFFCB25A6C2FC0006224A /* JLCalendarPicker WatchKit Extension */,
+				033AFFB825A6C2FB0006224A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033AFFB825A6C2FB0006224A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033AFFB725A6C2FB0006224A /* JLCalendarPicker.app */,
+				033AFFBB25A6C2FB0006224A /* JLCalendarPicker WatchKit App.app */,
+				033AFFC725A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033AFFBF25A6C2FB0006224A /* JLCalendarPicker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				033AFFC025A6C2FC0006224A /* Assets.xcassets */,
+				033AFFC225A6C2FC0006224A /* Info.plist */,
+			);
+			path = "JLCalendarPicker WatchKit App";
+			sourceTree = "<group>";
+		};
+		033AFFCB25A6C2FC0006224A /* JLCalendarPicker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				033AFFCC25A6C2FC0006224A /* JLCalendarPickerApp.swift */,
+				033AFFCE25A6C2FC0006224A /* ContentView.swift */,
+				033AFFD025A6C2FC0006224A /* NotificationController.swift */,
+				033AFFD225A6C2FD0006224A /* NotificationView.swift */,
+				033AFFD425A6C2FD0006224A /* ComplicationController.swift */,
+				033AFFD625A6C2FD0006224A /* Assets.xcassets */,
+				033AFFDB25A6C2FD0006224A /* Info.plist */,
+				033AFFDC25A6C2FD0006224A /* PushNotificationPayload.apns */,
+				033AFFD825A6C2FD0006224A /* Preview Content */,
+			);
+			path = "JLCalendarPicker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		033AFFD825A6C2FD0006224A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				033AFFD925A6C2FD0006224A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033AFFB625A6C2FB0006224A /* JLCalendarPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033AFFE725A6C2FD0006224A /* Build configuration list for PBXNativeTarget "JLCalendarPicker" */;
+			buildPhases = (
+				033AFFB525A6C2FB0006224A /* Resources */,
+				033AFFE625A6C2FD0006224A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033AFFBE25A6C2FB0006224A /* PBXTargetDependency */,
+			);
+			name = JLCalendarPicker;
+			productName = JLCalendarPicker;
+			productReference = 033AFFB725A6C2FB0006224A /* JLCalendarPicker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		033AFFBA25A6C2FB0006224A /* JLCalendarPicker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033AFFE325A6C2FD0006224A /* Build configuration list for PBXNativeTarget "JLCalendarPicker WatchKit App" */;
+			buildPhases = (
+				033AFFB925A6C2FB0006224A /* Resources */,
+				033AFFE225A6C2FD0006224A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033AFFCA25A6C2FC0006224A /* PBXTargetDependency */,
+			);
+			name = "JLCalendarPicker WatchKit App";
+			productName = "JLCalendarPicker WatchKit App";
+			productReference = 033AFFBB25A6C2FB0006224A /* JLCalendarPicker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		033AFFC625A6C2FC0006224A /* JLCalendarPicker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033AFFDF25A6C2FD0006224A /* Build configuration list for PBXNativeTarget "JLCalendarPicker WatchKit Extension" */;
+			buildPhases = (
+				033AFFC325A6C2FC0006224A /* Sources */,
+				033AFFC425A6C2FC0006224A /* Frameworks */,
+				033AFFC525A6C2FC0006224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLCalendarPicker WatchKit Extension";
+			productName = "JLCalendarPicker WatchKit Extension";
+			productReference = 033AFFC725A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033AFFB125A6C2FB0006224A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					033AFFB625A6C2FB0006224A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					033AFFBA25A6C2FB0006224A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					033AFFC625A6C2FC0006224A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 033AFFB425A6C2FB0006224A /* Build configuration list for PBXProject "JLCalendarPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033AFFB025A6C2FB0006224A;
+			productRefGroup = 033AFFB825A6C2FB0006224A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033AFFB625A6C2FB0006224A /* JLCalendarPicker */,
+				033AFFBA25A6C2FB0006224A /* JLCalendarPicker WatchKit App */,
+				033AFFC625A6C2FC0006224A /* JLCalendarPicker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033AFFB525A6C2FB0006224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033AFFB925A6C2FB0006224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033AFFC125A6C2FC0006224A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033AFFC525A6C2FC0006224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033AFFDA25A6C2FD0006224A /* Preview Assets.xcassets in Resources */,
+				033AFFD725A6C2FD0006224A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033AFFC325A6C2FC0006224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033AFFD125A6C2FC0006224A /* NotificationController.swift in Sources */,
+				033AFFCF25A6C2FC0006224A /* ContentView.swift in Sources */,
+				033AFFD525A6C2FD0006224A /* ComplicationController.swift in Sources */,
+				033AFFCD25A6C2FC0006224A /* JLCalendarPickerApp.swift in Sources */,
+				033AFFD325A6C2FD0006224A /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033AFFBE25A6C2FB0006224A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033AFFBA25A6C2FB0006224A /* JLCalendarPicker WatchKit App */;
+			targetProxy = 033AFFBD25A6C2FB0006224A /* PBXContainerItemProxy */;
+		};
+		033AFFCA25A6C2FC0006224A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033AFFC625A6C2FC0006224A /* JLCalendarPicker WatchKit Extension */;
+			targetProxy = 033AFFC925A6C2FC0006224A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		033AFFDD25A6C2FD0006224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		033AFFDE25A6C2FD0006224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033AFFE025A6C2FD0006224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JLCalendarPicker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MYUFZKVZME;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "JLCalendarPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.JLCalendarPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		033AFFE125A6C2FD0006224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JLCalendarPicker WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = MYUFZKVZME;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "JLCalendarPicker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.JLCalendarPicker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		033AFFE425A6C2FD0006224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYUFZKVZME;
+				IBSC_MODULE = JLCalendarPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "JLCalendarPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.JLCalendarPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		033AFFE525A6C2FD0006224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYUFZKVZME;
+				IBSC_MODULE = JLCalendarPicker_WatchKit_Extension;
+				INFOPLIST_FILE = "JLCalendarPicker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.JLCalendarPicker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		033AFFE825A6C2FD0006224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MYUFZKVZME;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.JLCalendarPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		033AFFE925A6C2FD0006224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MYUFZKVZME;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.JLCalendarPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033AFFB425A6C2FB0006224A /* Build configuration list for PBXProject "JLCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033AFFDD25A6C2FD0006224A /* Debug */,
+				033AFFDE25A6C2FD0006224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033AFFDF25A6C2FD0006224A /* Build configuration list for PBXNativeTarget "JLCalendarPicker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033AFFE025A6C2FD0006224A /* Debug */,
+				033AFFE125A6C2FD0006224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033AFFE325A6C2FD0006224A /* Build configuration list for PBXNativeTarget "JLCalendarPicker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033AFFE425A6C2FD0006224A /* Debug */,
+				033AFFE525A6C2FD0006224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033AFFE725A6C2FD0006224A /* Build configuration list for PBXNativeTarget "JLCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033AFFE825A6C2FD0006224A /* Debug */,
+				033AFFE925A6C2FD0006224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033AFFB125A6C2FB0006224A /* Project object */;
+}
