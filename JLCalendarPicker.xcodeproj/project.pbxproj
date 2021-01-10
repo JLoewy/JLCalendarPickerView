@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		033AFFD525A6C2FD0006224A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033AFFD425A6C2FD0006224A /* ComplicationController.swift */; };
 		033AFFD725A6C2FD0006224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033AFFD625A6C2FD0006224A /* Assets.xcassets */; };
 		033AFFDA25A6C2FD0006224A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033AFFD925A6C2FD0006224A /* Preview Assets.xcassets */; };
+		038BD13125AAD3DB00400796 /* CalendarPickerView in Frameworks */ = {isa = PBXBuildFile; productRef = 038BD13025AAD3DB00400796 /* CalendarPickerView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,18 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038BD13125AAD3DB00400796 /* CalendarPickerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		031FCCF225AA83E800A06AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		033AFFB025A6C2FB0006224A = {
 			isa = PBXGroup;
 			children = (
 				033AFFBF25A6C2FB0006224A /* JLCalendarPicker WatchKit App */,
 				033AFFCB25A6C2FC0006224A /* JLCalendarPicker WatchKit Extension */,
 				033AFFB825A6C2FB0006224A /* Products */,
+				031FCCF225AA83E800A06AA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +167,9 @@
 				033AFFBE25A6C2FB0006224A /* PBXTargetDependency */,
 			);
 			name = JLCalendarPicker;
+			packageProductDependencies = (
+				038BD12C25AAD3C500400796 /* CalendarPickerView */,
+			);
 			productName = JLCalendarPicker;
 			productReference = 033AFFB725A6C2FB0006224A /* JLCalendarPicker.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -191,6 +204,9 @@
 			dependencies = (
 			);
 			name = "JLCalendarPicker WatchKit Extension";
+			packageProductDependencies = (
+				038BD13025AAD3DB00400796 /* CalendarPickerView */,
+			);
 			productName = "JLCalendarPicker WatchKit Extension";
 			productReference = 033AFFC725A6C2FC0006224A /* JLCalendarPicker WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -224,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 033AFFB025A6C2FB0006224A;
+			packageReferences = (
+				038BD12B25AAD3C500400796 /* XCRemoteSwiftPackageReference "CalendarPickerView" */,
+			);
 			productRefGroup = 033AFFB825A6C2FB0006224A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -559,6 +578,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		038BD12B25AAD3C500400796 /* XCRemoteSwiftPackageReference "CalendarPickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JLoewy/CalendarPickerView/";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		038BD12C25AAD3C500400796 /* CalendarPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 038BD12B25AAD3C500400796 /* XCRemoteSwiftPackageReference "CalendarPickerView" */;
+			productName = CalendarPickerView;
+		};
+		038BD13025AAD3DB00400796 /* CalendarPickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 038BD12B25AAD3C500400796 /* XCRemoteSwiftPackageReference "CalendarPickerView" */;
+			productName = CalendarPickerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 033AFFB125A6C2FB0006224A /* Project object */;
 }

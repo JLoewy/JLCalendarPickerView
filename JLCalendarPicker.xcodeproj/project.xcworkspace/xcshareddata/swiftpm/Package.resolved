@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CalendarPickerView",
+        "repositoryURL": "https://github.com/JLoewy/CalendarPickerView/",
+        "state": {
+          "branch": "main",
+          "revision": "e87cfa952fbd7060649988ced69b17314abf1318",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

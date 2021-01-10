@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct NotificationView: View {
+    
+    @State var showingSheet = false
+    
     var body: some View {
-        Text("Hello, World!")
+        Text("Hello, World")
     }
 }
 
