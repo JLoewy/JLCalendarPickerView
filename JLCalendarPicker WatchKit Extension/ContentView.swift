@@ -23,6 +23,7 @@ struct ContentView: View {
         
         VStack {
             
+            
             Text(mediumFormatter.string(from: self.activeDate))
                 .padding()
             
@@ -36,7 +37,7 @@ struct ContentView: View {
             print("OHHHH it changed: \(value)")
         })
         .sheet(isPresented: $showingSheet, content: {
-            CalendarPickerView(withActiveDate: $activeDate, showingSheet: $showingSheet)
+            CalendarPickerView(withActiveDate: $activeDate, showingSheet: $showingSheet, showJumpButtons: true)
         })
     }
 }
